@@ -1,0 +1,10 @@
+.container-fluid {
+    position: relative;
+}
+
+.carousel-caption {
+    color: white;
+    position: absolute;
+    top: 15%;
+    left: -25%;
+}
