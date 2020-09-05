@@ -1,10 +1,12 @@
+/* ------- Image Text ------- */
+
 .container-fluid {
     position: relative;
 }
 
 .carousel-caption {
-    color: white;
+    color: whitesmoke;
     position: absolute;
-    top: 15%;
-    left: -25%;
+    top: 9%;
+    text-shadow: 1.5px 1.5px #808080;
 }
