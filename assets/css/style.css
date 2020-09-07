@@ -11,8 +11,11 @@
     text-shadow: 1.5px 1.5px #808080;
 }
 
+/* ------- Map Section ------- */
+
 div#map {min-height: 500px;}
 
+/* ------- Footer ------- */
 
 .social-links {
     max-width: 100%;
