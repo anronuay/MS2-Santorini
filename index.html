@@ -33,18 +33,53 @@
                 </div>
             </div>
         </section>
+
         <!-- Map (Reference: From Code Institue Google Maps module) -->
-        <section id="map-section">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-sm">
-                        <div id="map">
-                        </div>
-                    </div>
+        <div class="container-fluid pt-5">
+            <div class="row text-center">
+                <div class="col-md-6 offset-md-3">
+                <h2>Search the map for your next adventure ...</h2>
+                <p>Recommended Santorini attractions, restaurants and places to stay listed below.</p>
+                <input class="form-control" id="search" type="text" placeholder="Search..."/>
                 </div>
             </div>
-        </section>
+    
+            <div id="map" class="mt-4"></div>
+       
+    </div>
         
+        <footer class="container-fluid">
+            <div id="sticky-footer">
+                <ul class="list-inline">
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://www.facebook.com/santorini/">
+                            <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                            <span class="sr-only">Facebook</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://twitter.com/aboutsantorini">
+                            <i class="fab fa-twitter aria-hidden="true""></i>
+                            <span class="sr-only">Twitter</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://www.instagram.com/bestofsantorini/">
+                            <i class="fab fa-instagram" aria-hidden="true"></i>
+                            <span class="sr-only">Instagram</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://youtu.be/agta8vPNJKE">
+                            <i class="fab fa-youtube-square" aria-hidden="true"></i>
+                            <span class="sr-only">YouTube</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+
+
         <!-- JS -->
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
@@ -52,7 +87,7 @@
         <!-- Map JS -->
         <script src="assets/js/map.js"></script>
         <script src="https://unpkg.com/@google/markerclustererplus@5.1.0/dist/markerclustererplus.min.js"></script>
-        <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASF67o5ix0YVveugNcvXNyWDMHb4GsRT4&callback=initMap"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASF67o5ix0YVveugNcvXNyWDMHb4GsRT4&callback=initMap"></script>
     </body>
 
 </html>
