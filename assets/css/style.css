@@ -10,3 +10,7 @@
     top: 9%;
     text-shadow: 1.5px 1.5px #808080;
 }
+
+#map {
+min-height:360px
+}

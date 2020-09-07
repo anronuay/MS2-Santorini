@@ -11,6 +11,8 @@
         <link rel="stylesheet" href="assets/css/style.css">
         <title>S A N T O R I N I</title>
     </head>
+
+     <body>
         <!-- Header -->
         <header class="page-header">
             <div>
@@ -32,23 +34,19 @@
             </div>
         </section>
         <!-- Map (Reference: From Code Institue Google Maps module) -->
-        <section id="map-section">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-sm">
+        
                         <div id="map">
                         </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+        
+        <!-- JS -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 
+        <!-- Map JS -->
+        <script src="assets/js/map.js"></script>
+        <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAfDxIZs4d5MWUWoccl1XHxfv7_DSxYGQY&callback=initMap"></script>
+        <script src="https://unpkg.com/@google/markerclustererplus@5.1.0/dist/markerclustererplus.min.js"></script>
 
-    <body>
-
-        <script>
-            const APIkey = "AIzaSyBOCiqRaE_f3Rex5yU92vB9U9wNWopYhMk";
-        </script>
     </body>
 
 </html>
