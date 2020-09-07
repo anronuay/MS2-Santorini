@@ -13,7 +13,9 @@
 
 /* ------- Map Section ------- */
 
-div#map {min-height: 500px;}
+div#map {
+    min-height: 500px;
+}
 
 /* ------- Footer ------- */
 
