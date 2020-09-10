@@ -10,6 +10,11 @@
         <!-- Core CSS -->
         <link rel="stylesheet" href="assets/css/style.css">
         <title>S A N T O R I N I</title>
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASF67o5ix0YVveugNcvXNyWDMHb4GsRT4&callback=initAutocomplete&libraries=places&v=weekly"
+      defer
+    ></script>
     </head>
     <body>
         <!-- Header -->
@@ -38,11 +43,15 @@
                 <div class="col-md-6 offset-md-3">
                     <h2>Search the map for your next adventure ...</h2>
                     <p>Recommended Santorini attractions, restaurants and places to stay listed below.</p>
-                    <input class="form-control" id="search" type="text" placeholder="Search..."/>
                 </div>
             </div>
-    
-                <div id="map" class="mt-4"></div>
+    <input
+      id="pac-input"
+      class="controls"
+      type="text"
+      placeholder="Search Box"
+    />
+    <div id="map"></div>
        
         </div>
         
@@ -86,8 +95,7 @@
 
         <!-- Google Maps JS -->
         <script src="assets/js/map.js"></script>
-        <script src="https://unpkg.com/@google/markerclustererplus@5.1.0/dist/markerclustererplus.min.js"></script>
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASF67o5ix0YVveugNcvXNyWDMHb4GsRT4&callback=initMap&libraries=places"></script>
+        
 
         <!-- Font Awesome icons (free version) -->
         <script src="https://kit.fontawesome.com/c320975ce7.js"></script>
