@@ -17,6 +17,14 @@ div#map {
     min-height: 500px;
 }
 
+/* ------- Media Queries ------- */
+
+/*@media screen and (max-width: 350px) {
+    body {
+        font-size: 50px;
+  }
+}
+
 /* ------- Footer ------- */
 
 .social-links {
