@@ -1,16 +1,4 @@
 var map;
-
-function createMap () {
-    var options = {
-        center: { lat: 36.396132, lng: -25.461830},
-        zoom: 10}
-    };
-
-    map = new google.maps.Map(document.getElementById('map'), options);
-
-
-
-/*var map;
 function initMap() {
   map = new google.maps.Map(document.getElementById('map'), {
     center: {lat: 36.396132, lng: 25.461830},
@@ -34,7 +22,7 @@ var markers = locations.map(function(location, i) {
 var markerCluster = new MarkerClusterer(map, markers,
             {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
 
-*/
+
 
 
 /*var input = document.getElementById("search");

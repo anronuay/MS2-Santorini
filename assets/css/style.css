@@ -19,10 +19,16 @@ div#map {
 
 /* ------- Media Queries ------- */
 
-/*@media screen and (max-width: 350px) {
-    body {
-        font-size: 50px;
-  }
+@media screen and (max-width: 350px) {
+    #main-text {
+        font-size: 33px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    #image-text {
+        font-size: 31px;
+    }
 }
 
 /* ------- Footer ------- */
