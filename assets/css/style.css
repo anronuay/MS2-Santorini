@@ -24,9 +24,6 @@ div#map {
     #main-text {
         font-size: 33px;
     }
-}
-
-@media screen and (max-width: 350px) {
     #image-text {
         font-size: 31px;
     }
@@ -111,7 +108,7 @@ body {
   margin-left: 12px;
   padding: 0 11px 0 13px;
   text-overflow: ellipsis;
-  width: 400px;
+  width: 275px;
 }
 
 #pac-input:focus {

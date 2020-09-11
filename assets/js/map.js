@@ -1,14 +1,14 @@
 function initAutocomplete() {
   const map = new google.maps.Map(document.getElementById("map"), {
-    center: { lat: -33.8688, lng: 151.2195 },
-    zoom: 13,
+    center: { lat: 36.3932, lng: 25.4615 },
+    zoom: 11.5,
     mapTypeId: "roadmap",
     mapTypeControl: false
   });
   // Create the search box and link it to the UI element.
   const input = document.getElementById("pac-input");
   const searchBox = new google.maps.places.SearchBox(input);
-  map.controls[google.maps.ControlPosition.TOP_LEFT].push(input);
+  map.controls[google.maps.ControlPosition.TOP_CENTER].push(input);
   // Bias the SearchBox results towards current map's viewport.
   map.addListener("bounds_changed", () => {
     searchBox.setBounds(map.getBounds());
@@ -61,3 +61,4 @@ function initAutocomplete() {
     map.fitBounds(bounds);
   });
 }
+
