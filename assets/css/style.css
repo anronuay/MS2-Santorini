@@ -11,41 +11,10 @@
     text-shadow: 1.5px 1.5px #808080;
 }
 
-/* ------- Map Section ------- */
+/* ------- Map Section (Reference: From Code Institue Google Maps module & Google Maps Platform) ------- */
 
 div#map {
     min-height: 500px;
-
-}
-
-/* ------- Media Queries ------- */
-
-@media screen and (max-width: 350px) {
-    #main-text {
-        font-size: 33px;
-    }
-    #image-text {
-        font-size: 31px;
-    }
-}
-
-/* ------- Footer ------- */
-
-.social-links {
-    max-width: 100%;
-    height: auto;
-    text-align: center;
-
-}
-
-.social-links li a i {
-    font-size: 30px;
-    color: #000000;
-    padding: 30px 10px 0px 10px;
-}
-
-.social-links a i:hover {
-    color: #0d5eaf;
 }
 
 html,
@@ -123,6 +92,31 @@ body {
   padding: 6px 12px;
 }
 
-#target {
-  width: 345px;
+/* ------- Media Queries ------- */
+
+@media screen and (max-width: 350px) {
+    #main-text {
+        font-size: 33px;
+    }
+    #image-text {
+        font-size: 31px;
+    }
+}
+
+/* ------- Footer ------- */
+
+.social-links {
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.social-links li a i {
+    font-size: 30px;
+    color: #000000;
+    padding: 30px 10px 0px 10px;
+}
+
+.social-links a i:hover {
+    color: #0d5eaf;
 }
