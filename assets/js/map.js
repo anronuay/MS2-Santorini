@@ -1,12 +1,16 @@
-  // Places Search Box (Reference: Google Maps Platform)
+// Places Search Box (Reference: Google Maps Platform)
+
+var map;
 
 function initAutocomplete() {
-  const map = new google.maps.Map(document.getElementById("map"), {
+  map = new google.maps.Map(document.getElementById("map"), {
     center: { lat: 36.3932, lng: 25.4615 },
     zoom: 11.5,
     mapTypeId: "roadmap",
     mapTypeControl: false
   });
+
+  addMarkers();
 
   const input = document.getElementById("pac-input");
   const searchBox = new google.maps.places.SearchBox(input);
@@ -25,7 +29,7 @@ function initAutocomplete() {
     }
     
     markers.forEach(marker => {
-      marker.setMap(null);
+      marker.setMap(map);
     });
     markers = [];
     
@@ -128,9 +132,12 @@ var markers = [
     },
   ];
 
-  for (var i = 0; i < markers.length; i++) {
-    addMarker(markers[i]);
-  }
+function addMarkers() {
+    for (var i = 0; i < markers.length; i++) {
+        addMarker(markers[i]);
+    }
+}
+
 
   function addMarker(props) {
     var marker = new google.maps.Marker({
