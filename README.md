@@ -35,11 +35,13 @@ A live demo can be found [here](???).
 
 *   ### Wireframes
 
-    -   Home Page Wireframe - [View](https://github.com/anronuay/UCFD-resume-project/blob/master/wireframes/bw-home.page.png)
+    -   Desktop Wireframe  - 	[Page 1](https://github.com/anronuay/MS2-Santorini/blob/master/wireframes/bw-desktop.page1.png)
+    				[Page 2](https://github.com/anronuay/MS2-Santorini/blob/master/wireframes/bw-desktop.page2.png)
+    
+    -   Tablet Wireframe - 	[Page 1](https://github.com/anronuay/MS2-Santorini/blob/master/wireframes/bw-tablet.page1.png)
+    				[Page 2](https://github.com/anronuay/MS2-Santorini/blob/master/wireframes/bw-tablet.page2.png)
 
-    -   Resume Page Wireframe - [View](https://github.com/anronuay/UCFD-resume-project/blob/master/wireframes/bw-resume.page.png)
-
-    -   Contact Page Wireframe - [View](https://github.com/anronuay/UCFD-resume-project/blob/master/wireframes/bw-contact.page.png)
+    -   Mobile Wireframe - 	[View](https://github.com/anronuay/MS2-Santorini/blob/master/wireframes/bw-mobile.page.png)
 
 ## Features
 
@@ -53,13 +55,14 @@ A live demo can be found [here](???).
 
 -   [HTML5](https://en.wikipedia.org/wiki/HTML5)
 -   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+-   [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
 
 ### Frameworks, Libraries & Programs Used
 
 1. [Bootstrap 4.5.0:](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
     - Bootstrap was used to assist with the responsiveness and styling of the website.
 1. [Font Awesome:](https://fontawesome.com/)
-    - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
+    - Font Awesome was used on the footer of the website to add icons for aesthetic and UX purposes.
 1. [jQuery:](https://jquery.com/)
     - jQuery came with Bootstrap to make the navbar responsive.
 1. [Git](https://git-scm.com/)
@@ -67,7 +70,7 @@ A live demo can be found [here](???).
 1. [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.
 1. [Balsamiq:](https://balsamiq.com/)
-    - Balsamiq was used to create the [wireframes](https://github.com/anronuay/UCFD-resume-project/tree/master/wireframes) during the design process.
+    - Balsamiq was used to create the [wireframes](https://github.com/anronuay/MS2-Santorini/tree/master/wireframes) during the design process.
 1. [WebAIM:](https://webaim.org/resources/contrastchecker/)
     - Contrast checker, relevant in terms of accessibility and UX design.
 
