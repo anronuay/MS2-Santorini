@@ -118,7 +118,7 @@ var markers = [
     { // Oia
       latlong: { lat: 36.4618, lng: 25.3753 },
       iconImage: "assets/images/accommodation-icon.png",
-      content: "<img src='assets/images/map-images/oia.jpg'><h3>Oia</h3><a href='https://en.wikipedia.org/wiki/Oia,_Greece' target='_blank'>Click here to learn more about Oia</a>",
+      content: "<img src='assets/images/map-images/oia.jpg'><h5>Oia</h5><a href='https://en.wikipedia.org/wiki/Oia,_Greece' target='_blank'>Click here to learn more about Oia</a>",
     },
     { // Imerovigli
       latlong: { lat: 36.4328, lng: 25.4228 },
@@ -137,7 +137,6 @@ function addMarkers() {
         addMarker(markers[i]);
     }
 }
-
 
   function addMarker(props) {
     var marker = new google.maps.Marker({
@@ -161,4 +160,3 @@ function addMarkers() {
       });
     }
   }
-
