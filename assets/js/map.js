@@ -69,6 +69,8 @@ function initAutocomplete() {
 
 // Markers & Info Windows (Reference: Google Maps Platform & Traversy Media 'Google Maps JavaScript API Tutorial' YouTube)
 
+var activeInfoWindow; 
+
 var markers = [
     { // Amoudi Bay
       coords: { lat: 36.4600, lng: 25.3705 },
@@ -154,8 +156,10 @@ function addMarkers() {
         content: props.content,
       });
 
-      marker.addListener("click", function () {
+      marker.addListener('click', function () {
+        if (activeInfoWindow) { activeInfoWindow.close();}
         infoWindow.open(map, marker);
+        activeInfoWindow = infoWindow;
       });
     }
   }
