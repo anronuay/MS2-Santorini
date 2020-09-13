@@ -117,8 +117,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Known Bugs
 
--   On some mobile devices some of the Resume sub headings are slightly out of center alignment.
--   Some spacing of elememts is noticable due to the responsive nature of the website and the sticky navbar.
+-   On some mobile devices some of the Resume sub headings are slightly out of centre alignment.
+-   Some spacing of elements is noticeable due to the responsive nature of the website and the sticky navbar.
 
 ## Deployment
 This site is hosted using GitHub pages, deployed directly from the master branch. The deployed site will update automatically upon new commits to the master branch. In order for the site to deploy correctly on GitHub pages, the landing page must be named `index.html`.
@@ -148,6 +148,6 @@ To cut ties with this GitHub repository, type `git remote rm origin` into the te
 
 ### Acknowledgements
 
--   Code Insititue's Tutor support team, my Mentor and the Slack community.
+-   Code Institute's Tutor support team, my Mentor and the Slack community.
 
 **This is for educational use.**
