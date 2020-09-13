@@ -156,7 +156,6 @@ function addMarkers() {
 
       marker.addListener("click", function () {
         infoWindow.open(map, marker);
-        infowindow.close();
       });
     }
   }
