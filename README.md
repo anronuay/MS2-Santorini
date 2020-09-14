@@ -11,9 +11,9 @@ A live demo can be found [here](https://anronuay.github.io/MS2-Santorini/).
 
 ## User Experience (UX)
 
-    	1. As a user, I want to easily understand the main purpose of the site and learn more about the individual/organisation.
-        2. As a user, I want to be able to easily navigate throughout the site to find content.
-        3. As a user, I want to look for infomation relevant to Santorini that could help aid a propective visitor/traveller to the island. Both in the form of recommodations and other dedicated Santorini travel sites, in the social media links.
+1. As a user, I want to easily understand the main purpose of the site and learn more about the individual/organisation.
+2. As a user, I want to be able to easily navigate throughout the site to find content.
+3. As a user, I want to look for infomation relevant to Santorini that could help aid a propective visitor/traveller to the island. Both in the form of recommodations and other dedicated Santorini travel sites, in the social media links.
 
     -   ### Design
     -   #### Colour Scheme
