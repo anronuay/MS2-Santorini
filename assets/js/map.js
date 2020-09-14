@@ -1,4 +1,4 @@
-// Places Search Box (Reference: Google Maps Platform)
+// Suggestion Markers (Recommended Santorini attractions, restaurants & places to stay)
 
 let map;
 
@@ -65,10 +65,12 @@ const markers = [
     },
   ];
 
+// Places Search Box (Reference: Google Maps Platform)  
+
 function initAutocomplete() {
   map = new google.maps.Map(document.getElementById("map"), {
-    center: { lat: 36.3932, lng: 25.4615 },
-    zoom: 11.5,
+    center: { lat: 36.4100, lng: 25.4200 },
+    zoom: 12,
     mapTypeId: "roadmap",
     mapTypeControl: false
   });
