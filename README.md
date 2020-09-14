@@ -2,7 +2,7 @@
 
 **Code Institute - Interactive Frontend Development Milestone Project**
 
-A travel website dedicated to Santorini in Greece, inspired from a recent trips to the islands. Relevant useful information for first time travellers to the island, local attractions, recommended food & drink and places to stay during your visit. Increasing awareness and tourism to the area. Designed to be responsive and accessible on a range of devices, making it easy to navigate for potential users.
+A travel website dedicated to Santorini in Greece, inspired from a recent trip to the islands. Relevant useful information for first time travellers to the island, local attractions, recommended food & drink and places to stay during your visit. Increasing awareness and tourism to the area. Designed to be responsive and accessible on a range of devices, making it easy to navigate for potential users.
 
 ## Demo
 A live demo can be found [here](https://anronuay.github.io/MS2-Santorini/).
@@ -11,19 +11,9 @@ A live demo can be found [here](https://anronuay.github.io/MS2-Santorini/).
 
 ## User Experience (UX)
 
--   ### User stories
-
-    -   #### First Time Visitor Goals
-
-        1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the individual.
-        2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
-        3. As a First Time Visitor, I want to look through their portfolio to understand what their skillset and personality is and if they are competent. I also want to locate their social media links to see their content on social media to determine how trusted and known they are.
-
-    -   #### Returning Visitor Goals
-
-        1. As a Returning Visitor, I want to find information about upcoming and/or developed projects.
-        2. As a Returning Visitor, I want to find the best way to get in contact with the individual with any questions I may have.
-        3. As a Returning Visitor, I want to find their social links.
+    	1. As a user, I want to easily understand the main purpose of the site and learn more about the individual/organisation.
+        2. As a user, I want to be able to easily navigate throughout the site to find content.
+        3. As a user, I want to look for infomation relevant to Santorini that could help aid a propective visitor/traveller to the island. Both in the form of recommodations and other dedicated Santorini travel sites, in the social media links.
 
     -   ### Design
     -   #### Colour Scheme
