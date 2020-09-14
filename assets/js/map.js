@@ -2,80 +2,7 @@
 
 let map;
 
-function initAutocomplete() {
-  map = new google.maps.Map(document.getElementById("map"), {
-    center: { lat: 36.3932, lng: 25.4615 },
-    zoom: 11.5,
-    mapTypeId: "roadmap",
-    mapTypeControl: false
-  });
-
-  addMarkers();
-
-  const input = document.getElementById("pac-input");
-  const searchBox = new google.maps.places.SearchBox(input);
-  map.controls[google.maps.ControlPosition.TOP_CENTER].push(input);
-  const autocomplete = new google.maps.places.Autocomplete(input);
-  autocomplete.setComponentRestrictions({
-    country: ["gr"]
-  });
-  
-  map.addListener("bounds_changed", () => {
-    searchBox.setBounds(map.getBounds());
-  });
-  let markers = [];
-  
-  searchBox.addListener("places_changed", () => {
-    const places = searchBox.getPlaces();
-
-    if (places.length == 0) {
-      return;
-    }
-    
-    markers.forEach(marker => {
-      marker.setMap(map);
-    });
-    markers = [];
-    
-    const bounds = new google.maps.LatLngBounds();
-    places.forEach(place => {
-      if (!place.geometry) {
-        console.log("Returned place contains no geometry");
-        return;
-      }
-      const icon = {
-        url: place.icon,
-        size: new google.maps.Size(71, 71),
-        origin: new google.maps.Point(0, 0),
-        anchor: new google.maps.Point(17, 34),
-        scaledSize: new google.maps.Size(25, 25)
-      };
-      
-      markers.push(
-        new google.maps.Marker({
-          map,
-          icon,
-          title: place.name,
-          position: place.geometry.location
-        })
-      );
-
-      if (place.geometry.viewport) {
-
-        bounds.union(place.geometry.viewport);
-      } else {
-        bounds.extend(place.geometry.location);
-      }
-    });
-    map.fitBounds(bounds);
-  });
-}
-
-// Markers & Info Windows (Reference: Google Maps Platform & Traversy Media 'Google Maps JavaScript API Tutorial' YouTube)
-
-var activeInfoWindow; 
-
-var markers = [
+const markers = [
     { // Amoudi Bay
       coords: { lat: 36.4600, lng: 25.3705 },
       iconImage: "assets/images/attractions-icon.png",
@@ -138,6 +65,71 @@ var markers = [
     },
   ];
 
+function initAutocomplete() {
+  map = new google.maps.Map(document.getElementById("map"), {
+    center: { lat: 36.3932, lng: 25.4615 },
+    zoom: 11.5,
+    mapTypeId: "roadmap",
+    mapTypeControl: false
+  });
+
+  addMarkers();
+
+  const input = document.getElementById("pac-input");
+  const searchBox = new google.maps.places.SearchBox(input);
+  map.controls[google.maps.ControlPosition.TOP_CENTER].push(input);
+  const autocomplete = new google.maps.places.Autocomplete(input);
+  autocomplete.setComponentRestrictions({
+    country: ["gr"]
+  });
+  
+  map.addListener("bounds_changed", () => {
+    searchBox.setBounds(map.getBounds());
+  });
+  let markersPlaces = [];
+  
+  searchBox.addListener("places_changed", () => {
+    const places = searchBox.getPlaces();
+
+    if (places.length == 0) {
+      return;
+    }
+    
+    markersPlaces.forEach(function (m) {
+      m.setMap(null);
+    });
+    
+    const bounds = new google.maps.LatLngBounds();
+    places.forEach(place => {
+      if (!place.geometry) {
+        console.log("Returned place contains no geometry");
+        return;
+      }
+      
+      
+      markersPlaces.push(
+        new google.maps.Marker({
+          map: map,
+          title: place.name,
+          position: place.geometry.location,
+        })
+      );
+
+      if (place.geometry.viewport) {
+
+        bounds.union(place.geometry.viewport);
+      } else {
+        bounds.extend(place.geometry.location);
+      }
+    });
+    map.fitBounds(bounds);
+  });
+}
+
+// Markers & Info Windows (Reference: Google Maps Platform & Traversy Media 'Google Maps JavaScript API Tutorial' YouTube)
+
+let activeInfoWindow; 
+
 function addMarkers() {
     for (var i = 0; i < markers.length; i++) {
         addMarker(markers[i]);
@@ -145,7 +137,7 @@ function addMarkers() {
 }
 
   function addMarker(props) {
-    var marker = new google.maps.Marker({
+    let marker = new google.maps.Marker({
       position: props.coords,
       map: map,
     });
@@ -156,7 +148,7 @@ function addMarkers() {
     }
 
     if (props.content) {
-      var infoWindow = new google.maps.InfoWindow({
+      let infoWindow = new google.maps.InfoWindow({
         content: props.content,
       });
 
