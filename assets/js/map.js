@@ -106,7 +106,6 @@ function initAutocomplete() {
         return;
       }
       
-      
       markersPlaces.push(
         new google.maps.Marker({
           map: map,
