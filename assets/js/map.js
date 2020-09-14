@@ -1,6 +1,6 @@
 // Places Search Box (Reference: Google Maps Platform)
 
-var map;
+let map;
 
 function initAutocomplete() {
   map = new google.maps.Map(document.getElementById("map"), {
@@ -15,7 +15,11 @@ function initAutocomplete() {
   const input = document.getElementById("pac-input");
   const searchBox = new google.maps.places.SearchBox(input);
   map.controls[google.maps.ControlPosition.TOP_CENTER].push(input);
-
+  const autocomplete = new google.maps.places.Autocomplete(input);
+  autocomplete.setComponentRestrictions({
+    country: ["gr"]
+  });
+  
   map.addListener("bounds_changed", () => {
     searchBox.setBounds(map.getBounds());
   });
