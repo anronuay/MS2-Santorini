@@ -80,7 +80,8 @@ A live demo can be found [here](https://anronuay.github.io/MS2-Santorini/).
     - GitHub is used to store the projects code after being pushed from Git.
 1. [Balsamiq:](https://balsamiq.com/)
     - Balsamiq was used to create the [wireframes](https://github.com/anronuay/MS2-Santorini/tree/master/wireframes) during the design process.
-1. [Google Maps Platform](https://cloud.google.com/maps-platform) Google Maps JavaScript API & Places API.
+1. [Google Maps Platform]
+    - (https://cloud.google.com/maps-platform) Google Maps JavaScript API & Places API.
 1. [WebAIM:](https://webaim.org/resources/contrastchecker/)
     - Contrast checker, relevant in terms of accessibility and UX design.
 1. [PicResize:](https://picresize.com/)
@@ -114,7 +115,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
     3. As a user, I want to look for information relevant to Santorini that could help aid a prospective visitor/traveller to the island. Both in the form of recommendations and other dedicated Santorini travel sites, in the social media links.
 
-        1. The integrated search bar embedded in the map section allows the user to search for other related destinations within Santorini and Greece.
+        1. The integrated search bar embedded in the map section allows the user to search for other related destinations [attractions, restaurants & hotels], within Santorini and Greece.
         2. The social media links in the footer, reinforces additional content and information for Santorini, allowing the user to broaden their knowledge about the island.
 
 ### Further Testing
@@ -151,7 +152,7 @@ Using the Bootstrap layout and mobile fist development method, it allowed me to 
 
 -   Places Search Box - When the user searches for a place and selects from the predicted search terms and either clicks with their mouse or selects via touch screen on mobile devices. The map will seem unresponsive. However when prompted again it works as intended. 
 
-- When the same process is ended with the user pressing the enter button to action, or selecting via the keyboard arrows, the website is responsive, as intended. After following this query up with Code Institute's Tutor Support team, they informed me that they had not encountered this issue before. After checking through the JavaScript, they concluded that it was a glitch within Google Maps. [View]()
+- When the same process is ended with the user pressing the enter button to action, or selecting via the keyboard arrows, the website is responsive, as intended. After following this query up with Code Institute's Tutor Support team, they informed me that they had not encountered this issue before. After checking through the JavaScript, they concluded that it was a glitch within Google Maps.
 
 ## Deployment
 
