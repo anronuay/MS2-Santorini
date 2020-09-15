@@ -31,12 +31,10 @@ A live demo can be found [here](https://anronuay.github.io/MS2-Santorini/).
 
 *   ### Wireframes
 
-    -   Desktop Wireframe  - 	[Page 1](https://github.com/anronuay/MS2-Santorini/blob/master/wireframes/bw-desktop.page1.png)
-    				[Page 2](https://github.com/anronuay/MS2-Santorini/blob/master/wireframes/bw-desktop.page2.png)
+    -   Desktop Wireframe  - 	[View](https://github.com/anronuay/MS2-Santorini/blob/master/wireframes/bw-desktop.page.png)
     
-    -   Tablet Wireframe - 	[Page 1](https://github.com/anronuay/MS2-Santorini/blob/master/wireframes/bw-tablet.page1.png)
-    				[Page 2](https://github.com/anronuay/MS2-Santorini/blob/master/wireframes/bw-tablet.page2.png)
-
+    -   Tablet Wireframe - 	[View](https://github.com/anronuay/MS2-Santorini/blob/master/wireframes/bw-tablet.page.png)
+    			
     -   Mobile Wireframe - 	[View](https://github.com/anronuay/MS2-Santorini/blob/master/wireframes/bw-mobile.page.png)
 
 ## Features
@@ -80,8 +78,8 @@ A live demo can be found [here](https://anronuay.github.io/MS2-Santorini/).
     - GitHub is used to store the projects code after being pushed from Git.
 1. [Balsamiq:](https://balsamiq.com/)
     - Balsamiq was used to create the [wireframes](https://github.com/anronuay/MS2-Santorini/tree/master/wireframes) during the design process.
-1. [Google Maps Platform]
-    - (https://cloud.google.com/maps-platform) Google Maps JavaScript API & Places API.
+1. [Google Maps Platform:](https://cloud.google.com/maps-platform) 
+    - Google Maps JavaScript API & Places API.
 1. [WebAIM:](https://webaim.org/resources/contrastchecker/)
     - Contrast checker, relevant in terms of accessibility and UX design.
 1. [PicResize:](https://picresize.com/)
